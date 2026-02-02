@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact — Salford Press</title>
+    <meta name="description" content="Partnership inquiries for Salford Press." />
+    <meta name="theme-color" content="#A3121A" />
+    <link rel="stylesheet" href="assets/styles.css" />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <script defer src="assets/site.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="Salford Press home">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span class="brand-name">Salford Press</span>
+        </a>
+
+        <nav class="site-nav" aria-label="Primary">
+          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link" href="about.html">About</a>
+          <a class="nav-link" href="contact.html">Contact</a>
+          <a class="button button-solid nav-cta" href="contact.html">Partnership inquiries</a>
+        </nav>
+
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="mobileNav">
+          <span class="nav-toggle-label">Menu</span>
+        </button>
+      </div>
+
+      <div class="mobile-nav container" id="mobileNav" hidden>
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link" href="contact.html">Contact</a>
+        <a class="button button-solid" href="contact.html">Partnership inquiries</a>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="page-hero">
+        <div class="container">
+          <p class="eyebrow">Contact</p>
+          <h1>Partnership inquiries</h1>
+          <p class="lead">Email-only contact. We aim to respond within 3 business days.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="grid-2">
+            <div class="card">
+              <h2>Email</h2>
+              <p class="lead">
+                <a class="email-link" href="mailto:partnerships@salfordpress.com">partnerships@salfordpress.com</a>
+              </p>
+              <p class="muted">
+                Include who you are, what you’re proposing, rights status, timeline, and any relevant links or samples.
+              </p>
+              <div class="mini-list">
+                <div class="mini-item">Who you are</div>
+                <div class="mini-item">Proposal overview</div>
+                <div class="mini-item">Rights status</div>
+                <div class="mini-item">Timeline</div>
+                <div class="mini-item">Links / samples</div>
+              </div>
+            </div>
+
+            <div class="card card-quiet">
+              <h2>Quick email draft</h2>
+              <p class="muted">This creates a draft in your email client.</p>
+
+              <form class="contact-form" id="emailDraftForm">
+                <label>
+                  Your name
+                  <input name="name" autocomplete="name" />
+                </label>
+                <label>
+                  Organization (optional)
+                  <input name="org" autocomplete="organization" />
+                </label>
+                <label>
+                  Your email
+                  <input name="email" autocomplete="email" inputmode="email" />
+                </label>
+                <label>
+                  Message
+                  <textarea name="message" rows="5" placeholder="Brief overview + any relevant links"></textarea>
+                </label>
+                <button class="button button-solid" type="submit">Create email draft</button>
+                <p class="microcopy" role="status" aria-live="polite" data-form-status></p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p class="footer-note">
+          Educational content only. Salford Press does not provide medical advice.
+        </p>
+        <div class="footer-links">
+          <a href="privacy.html">Privacy</a>
+          <a href="terms.html">Terms</a>
+        </div>
+        <p class="footer-copy">© <span data-year></span> Salford Press</p>
+      </div>
+    </footer>
+  </body>
+</html>
